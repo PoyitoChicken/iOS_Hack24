@@ -10,7 +10,7 @@ And that lead us to design phone app that connects its users with each other, bu
 Not only that but since everything stems from childhood, it also has a section that teaches kids not to contaminate by showing them what's happening to the world right now and how it's already affecting us through infographs.
 
 ### 1. UI/UX
-main > #app > UIUX
+main > appUXUI > Complete
 * https://github.com/marthamendozaa
 * https://github.com/marielperezf
 
