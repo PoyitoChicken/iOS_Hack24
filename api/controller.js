@@ -2,12 +2,12 @@ const mysql = require('./db.js');
 
 class MainController {
     async postLogs(req, res) {
-        const { id_report_type, report_date, imageLink, name, location_x, location_y } = req.body;        
-        if (id_report_type && imageLink && name && location_x && location_y) {
-            const sql = `INSERT INTO logs (id_report_type, report_date, image, name, location_x, location_y) VALUES (?, NOW(), ?, ?, ?, ?)`;
-            const values = [id_report_type, imageLink, name, location_x, location_y];
-            
-            mysql.query(sql, values, (error, data) => {
+        const { report_type, report_subtype, imageLink, location_x, location_y } = req.body;
+        console.log(req.body);
+        if (report_type && report_subtype && imageLink && location_x && location_y) {
+            const sql = `CALL insert_log('${report_type}', '${report_subtype}', '${imageLink}', ${location_x}, ${location_y})`;
+            console.log(sql);
+            mysql.query(sql, (error, data) => {
                 if (error) {
                     res.status(500).json({ error: error.message });
                 } else {

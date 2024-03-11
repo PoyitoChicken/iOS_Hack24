@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Aire",
+        "category": "Lakes",
+        "city": "Port Alsworth",
+        "state": "01 800 776 33 72",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "PROFEPA",
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Presencia de agentes determinados en la atmósfera que pueden causar efectos indeseables en los seres vivos debido a sus altas concentraciones o nocividad. Las Partículas Suspendidas Totales son mezclas de sólidos y líquidos presentes en la atmósfera que fueron originadas naturalmente o antropogénicamente. Entre más pequeñas sean, éstas pueden entrar al interior de los pulmones con efectos tóxicos para el ser humano.",
+        "consequence": "La contaminación del aire conlleva graves consecuencias para la salud humana, incluyendo enfermedades respiratorias, cardiovasculares e incluso la muerte prematura. Además, afecta negativamente al medio ambiente al contribuir al cambio climático, dañar los ecosistemas naturales y acidificar los cuerpos de agua. Estos impactos ambientales también tienen repercusiones económicas, desde costos asociados con la atención médica hasta daños en la infraestructura, lo que subraya la urgencia de abordar este problema global de manera efectiva para proteger la salud pública y el bienestar general.",
+        "imageName": "polairemini",
+        "imageName2": "bgaire"
+    },
+    {
+        "name": "Agua",
+        "category": "Lakes",
+        "city": "Browning",
+        "state": "01 800 776 33 72",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "PROFEPA",
+        "coordinates": {
+            "longitude": -113.536248,
+            "latitude": 48.69423
+        },
+        "description": "La contaminación del agua es la definición de la mezcla de sustancias conocidas como nocivas por ser químicas, lo cuáles al entrar en contacto con el agua dulce degradan su calidad, haciendo de esta tóxica para los seres vivos  el medio ambiente. Esto ha contribuido a una crisis de agua dulce que amenaza a los dependientes del agua potable, entre otras necesidades, Alrededor del 80% de las aguas residuales se vierten en  el medio ambiente. contaminando así a ríos, lagos y océanos. La mayoría de las sustancias tóxicas vienen de granjas, ciudades y fábricas, sin embargo también es causante mediante el viento, tormentas y vertidos de basura que en conjunto envían desechos mayormente plásticos a las vías fluviales sin embargo, las principales causas son la actividad humana.",
+        "consequence": "Además de reducir el agua potable, la contaminación del agua puede provocar daños a la salud humana, envenenamiento de fauna y daños al ecosistema. Según la ORG, un aproximado de 2,000 millones de personas beben agua de fuentes contaminadas por heces los cuales pueden transmitir enfermedades peligrosas.  De igual forma, al exponerse la fauna a la contaminación tienen grandes consecuencias,animales que quedan enredados en escombros se arriesgan a morir sofocados o ahogados. Muchas especies confunden los escombros plásticos con alimento o ingieren involuntariamente escombros plásticos al alimentarse o nadar, creando efectos negativos en la salud.",
+        "imageName": "polaguamini",
+        "imageName2": "bgagua"
+    },
+    {
+        "name": "Suelo",
+        "category": "Lakes",
+        "city": "Twin Lakes",
+        "state": "01 800 776 33 72",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "PROFEPA",
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "description": "Es la concentración de contaminantes en el suelo que daña la biodiversidad y salud de los seres vivos. Es una amenaza global debido a la degradación intensa o moderada de actividades o desechos humanos. Fenómenos como la basura, la erosión, la salinización y contaminación química son algunos principales responsables del deterioro del suelo.",
+        "consequence": "Las sustancias tóxicas depositadas en la superficie perjudican la calidad de los alimentos, agua y aire; los cuales dañan a nuestra salud y bienestar.",
+        "imageName": "polsuelomini",
+        "imageName2": "bgsuelo"
+    }
+    
+]
